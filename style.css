@@ -1,0 +1,113 @@
+body{
+    font-family: 'Sigmar', cursive;
+    background: url(Images/pexels-scott-webb-28061.jpg);
+    background-size: cover;  /* for adjusting the image to the background properly */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left{
+    /* border: 2px solid chartreuse; */
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.left img{
+    width: 120px;
+    margin: auto;
+    filter: invert(100%); /*To change the color of image from black to white and vice versa*/
+}
+
+.left div{
+    text-align: center;
+    font-size: 23px;
+    line-height: 7px;
+}
+
+.mid{
+    /* border: 2px solid chartreuse; */
+    color: white;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.right{
+    /* border: 2px solid chartreuse; */
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;      /* for removing underline */
+    padding: 15px;
+}
+
+.navbar li a:hover{
+    color: rgb(115, 112, 112);
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    border: 2px solid rgb(89, 85, 85);
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(36, 35, 35);
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 75px 52px;
+    padding: 22px 36px;
+    width: 33%;
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 310px;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.formgroup input:hover {
+    background-color: rgb(212, 197, 197);
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 310px;
+    margin: 27px auto;
+}
